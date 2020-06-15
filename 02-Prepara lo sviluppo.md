@@ -1,4 +1,4 @@
-# Scheda n°2: Preparare lo sviluppo
+# Scheda n°2: Prepara lo sviluppo
 
 #### I principi della protezione dei dati personali devono essere integrati negli sviluppi IT dalla fase di design in poi, al fine di proteggere la privacy delle persone i cui dati verranno trattati, per dare loro un maggior controllo sui loro dati e per limitare errori, perdite, modifiche non autorizzate o abusi dei loro dati nelle applicazioni.
 

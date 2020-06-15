@@ -27,17 +27,17 @@ Le buone pratiche di questa guida, pertanto, **non intendono coprire tutte le ri
 
 ## Sommario
 
-0. [Sviluppare in linea con il GDPR](#Sheet_n°0_:_Develop_in_compliance_with_the_RGPD)
+0. [Sviluppa in linea con il GDPR](#Scheda_n°0_:_Sviluppa_in_linea_con_il_GDPR)
 
-1. [Individuare i dati personali](#Scheda_n°1_:_Individuare i dati personali)
+1. [Individua i dati personali](#Scheda_n°1_:_Individua i dati personali)
 
-2. [Prepare your development](#Sheet_n°2_:_Prepare_your_development)
+2. [Prepara lo sviluppo](#Scheda_n°2_:_Prepara_lo_sviluppo)
 
-3. [Securing your development environment](#Sheet_n°3_:_Securing_your_development_environment)
+3. [Sviluppa in un ambiente sicuro](#Scheda_n°3_:_Sviluppa_in_un_ambiente_sicuro)
 
-4. [Manage your source code](#Sheet_n°4_:_Manage_your_source_code)
+4. [Gestisci il codice sorgente](#Scheda_n°4_:_Gestisci_il_codice_sorgente)
 
-5. [Make an informed choice of architecture](#Sheet_n°5_:_Make_an_informed_choice_of_architecture)
+5. [Fai scelte architetturali informate](#Scheda_n°5_:_Fai_scelte_architetturali_informate)
 
 6. [Securing your websites, applications and servers](#Sheet_n°6_:_Securing_your_websites,_applications_and_servers)
 

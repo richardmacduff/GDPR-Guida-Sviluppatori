@@ -1,4 +1,4 @@
-# Scheda n°1: Individuare i dati personali
+# Scheda n°1: Individua i dati personali
 
 #### Comprendere i concetti di “dati personali”, “scopo” e “trattamento” è essenziale per sviluppare trattamenti rispondenti ai requisiti di legge. In particolare, stai attento a non confondere “anonimizzazione” e “pseudonimizzazione”, che sono definiti con molta precisione nel GDPR.
 

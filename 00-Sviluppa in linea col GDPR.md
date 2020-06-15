@@ -1,4 +1,4 @@
-# Scheda n°0: Sviluppare rispondendo al GDPR
+# Scheda n°0: Sviluppa rispondendo al GDPR
 
 #### Sia che tu lavori da solo, che tu sia parte di un gruppo di progetto, che tu gestisca un gruppo di sviluppatori, o che tu sia un fornitore di servizi che sviluppa per conto terzi, è essenziale che tu ti assicuri che i dati degli utenti e tutti i trattamenti di dati personali siano sufficientemente protetti durante tutto il ciclo di vita del progetto.
 
