@@ -9,7 +9,7 @@ Questa guida è pubblicata con [licenza GPLv3](https://www.gnu.org/licenses/gpl-
 
 La  [versione francese](https://github.com/LINCnil/Guide-RGPD-du-developpeur) è la versione autentica di questa guida.
 
-Questa versione italiana è a cura di [Walter Vannini](github.com/richardmacduff).
+Questa versione italiana è a cura di [Walter Vannini](https://github.com/richardmacduff/).
 
 ## Questa guida è solo per sviluppatori?
 
