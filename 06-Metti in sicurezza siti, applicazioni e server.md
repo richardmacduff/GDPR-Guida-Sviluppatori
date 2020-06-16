@@ -6,49 +6,47 @@
 
 * **Implementare TLS versione 1.2 or 1.3** (al posto di SSL) su tutti i siti web e per le trasmissioni dati elle tue applicazioni mobili, per esempio con [LetsEncrypt](https://letsencrypt.org/fr/), usando solo le versioni più recenti e controllando la correttezza dell’implementazione.
 * **Rendi obbligatorio l’uso di TLS** per tutte le pagine del tuo sito e per tutte le applicazioni mobili.
-* **Limit the communication ports** strictly necessary for the proper functioning of the installed applications. If access to a web server is only possible using the HTTPS protocol, only ports 443 and 80 of this server must be accessible, all other ports can be blocked by the firewall.
-* **The OWASP has published on its website some cheatsheets** for exemple to [correctly implement TLS](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html) or to [secure a webservice](https://cheatsheetseries.owasp.org/cheatsheets/Web_Service_Security_Cheat_Sheet.html).
+* **Riduci i port di comunicazione aperti** a quelli strettamente necessari per il corretto funzionamento delle applicazioni installate. Se l’accesso a un server web è possibile solo attraverso il protocollo HTTPS, allora solo i port 80 e 443 del server devono essere accessibili, e tutti gli altri port possono essere bloccati dal firewall.
+* **OWASP ha pubblicato delle schede-guida**, ad esempio per [implementare correttamente TLS](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html) o per [mettere in sicurezza un webservice](https://cheatsheetseries.owasp.org/cheatsheets/Web_Service_Security_Cheat_Sheet.html).
 
-## Securing Authentications
+## Mettere in sicurezza le autenticazioni
 
-* **Follow [the CNIL recommendation on passwords](https://www.cnil.fr/fr/node/23803)**. In particular, remember to limit the number of access attempts.
+* **Segui le [raccomandazioni CNIL per le password](https://www.cnil.fr/fr/node/23803)**. In particolare, ricordati di mettere un limite al numero di tentativi di accesso.
 
-* **Never store passwords in clear text**. Store them as a hash using a proven library, such as [bcrypt](https://en.wikipedia.org/wiki/Bcrypt).
+* **Non archiviare mai le passowrd in chiaro**. Memorizza il loro hash usando una libreria consolidata, come [bcrypt](https://en.wikipedia.org/wiki/Bcrypt).
 
-* **If cookies are used for authentication**, it is recommended:
+* **Se usi cookie per l’autenticazione**, ti raccomandiamo:
+* di forzare l’uso di HTTPS tramite [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security);
+    
+* di usare il flag `secure`;
+    
+* usa il flag `HttpOnly`.
+    
+* **Testa le librerire di crittografia installate sui tuoi sistemi** e disabilita quelle obsolete (RC4, MD4, MD5 etc.). Incoraggia l’utilizzo di AES256. [Leggi le note di OWASP al riguardo](https://owasp.org/www-project-cheat-sheets/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html).
 
-    * to force the use of HTTPS via [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security);
+* **Adotta una politica specifica per le password degli amministratori**. Come minimo, cambia le loro password ogni volta che un amministratore lascia il lavoro, e comunque sempre in caso di sospetta violazione della sicurezza.
 
-    * to use the `secure` flag;
+* **Limita l’accesso ai tool e alle interfacce di amministrazione al solo staff qualificato per il loro uso.** Per le operazioni quotidiane, incoraggia l’utilizzo di account a privilegi ridotti.
 
-    * use the `HttpOnly` flag.
+* **L’accesso remoto alle interfacce di amministrazione deve essere soggetto a misure di sicurezza rinforzate.** Per esempio, per i server interni, può essere una buona soluzione dotarsi di una VPN con autenticazione forte dell’utente e della macchina che usa per connettersi.
 
-* **Test the cryptographic suites installed on the systems** and disable obsolete ones (RC4, MD4, MD5 etc.). Encourage the use of AES256. [Read the OSWAP note on the subject](https://owasp.org/www-project-cheat-sheets/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html).
+## Mettere in sicurezza le infrastrutture
 
-* **Adopt a specific password policy for administrators**. Change the passwords, at least, each time an administrator leaves and in case of suspected breach. Encourage strong authentication when possible.
+* **Fai backup regolari, cifrati e controllati regolarmente**. Questo è particolarmente utile nel caso di attacchi di tipo *ransomware* perché in quel caso la disponibilità di un backup di tutti i sistemi è la tua sola possibilità di ripristinare i sistemi.
 
-* **Limit access to administration tools and interfaces to qualified staff.** Encourage the use of lower-privilege accounts for day-to-day operations.
+* **Limita la dimensione dello stack software che impieghi** e per ciascun elemento dello stack:
+* **Installa gli update critici** senza ritardo, programmando un controllo automatico settimanale;
+    * **Automatizza il controllo delle vulnerabilità** abbonandoti per esempio ai [Data Feed di NVD](https://nvd.nist.gov/vuln/data-feeds).
+    
+* **Adotta strumenti di scoperta delle vulnerabilità** per i processi più critici, in modo da poter scoprire possibili violazioni di sicurezza. Puoi usare sistemi per la scoperta e la prevenzione di attacchi anche sui sistemi e sui server critici. Questi test devono essere condotti regolarmente e comunque prima della messa in produzione di ogni nuovo software.
 
-* **Remote access to administration interfaces should be subject to increased security measures.** For example, for internal servers, implementing a VPN with strong authentication of the user and the workstation he or she is using may be a good solution.
+* **Limita o proibisci l’accesso sia fisico che via software ai port di diagnostica e di configurazione remota**. Per esempio, puoi avere l’elenco di tutti i port aperti con lo strumento `netstat`.
 
-## Securing infrastructures
+* **Proteggi i database che esponi su Internet**, come minimo limitando il più possibile l’accesso e cambiando la password di default per l’account dell’amministratore.
 
-* **Make backups, if possible encrypted and checked regularly**. This is especially useful in case of a ransomware attack on your systems as having backups for all your systems will be the only measure that will allow you to restore your systems.
+* Per quanto riguarda la gestione di database, le buone pratiche includono:
 
-* **Limit the size of the software stack used,** and for each element of the stack:
-
-    * **Install critical updates** without delay by scheduling an automatic weekly check;
-    * **Automate a vulnerability watch** by subscribing to the [NVD Data Feeds](https://nvd.nist.gov/vuln/data-feeds) for example.
-
-* **Use vulnerability detection tools** for the most critical processes to detect possible security breach. Systems for detecting and preventing attacks on critical systems or servers can also be used. These tests must be conducted regularly and before any new software version is put into production.
-
-* **Restrict or fordbid physical and software access to diagnostic and remote configuration ports.** For example, you can list all open ports using the *netstat* tool.
-
-* **Protect the databases you make available on the Internet**, at least by restricting access as much as possible (for example, by IP filtering) and by changing the default password for the administrator account.
-
-* In terms of database management, good practices include:
-
-    * **using nominative accounts** for database access and create specific accounts for each application;
-    * **revoking the administrative privileges** of user or application accounts to avoid modification to database structure (table, vues, process, etc);
-    * having protection against SQL or script injection attacks;
-    * encouraging at rest disk and database encryption.
+    * per l’accesso al database **usare account nominativi ** e creare account specifici per ciascuna applicazione;
+    * **revoca i privilegi di amministratore** degli account (utente o applicativo) per evitare modifiche alla struttura del database (tabelle, viste, processi, ecc.);
+    * assicurati di proteggerti contro attacchi di tipo SQL injection o *script injection;
+    * incoraggia la cifratura a riposo di dischi e database.
