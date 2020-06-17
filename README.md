@@ -57,7 +57,7 @@ Le buone pratiche di questa guida, pertanto, **non intendono coprire tutte le ri
 
 13. [Prepare to exercise people's rights](#Sheet_n°13_:_Prepare_for_the_exercise_of_people_rights)
 
-14. [Define a data retention period](#Sheet_n°14_:_Define_a_data_retention_period)
+14. [Definisci un periodo di conservazione dei dati](#Scheda_n°14_:_Definisci_un_periodo_conservazione_dei_dati)
 
 15. [Take into account the legal basis in the technical implementation](#Sheet_n°15_:_Take_into_account_the_legal_bases_in_the_technical_implementation)
 
