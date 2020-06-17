@@ -41,17 +41,17 @@ Le buone pratiche di questa guida, pertanto, **non intendono coprire tutte le ri
 
 5. [Fai scelte architetturali informate](#Scheda_n°5_:_Fai_scelte_architetturali_informate)
 
-6. [Securing your websites, applications and servers](#Sheet_n°6_:_Securing_your_websites,_applications_and_servers)
+6. [Metti in sicurezza siti, applicazioni e server](#Scheda_n°6_:_Metti_in_sicurezza_siti,_applicazioni_e_server)
 
-7. [Minimize data collection](#Sheet_n°7_:_Minimize_data_collection)
+7. [Minimizza la raccolta dati](#Scheda_n°7_:_Minimizza_la_raccolta_dati)
 
-8. [Manage user profiles](#Sheet_n°8_:_Manage_users_profiles)
+8. [Gestisci i profili utente](#Scheda_n°8_:_Gestisci_i_profili_utente)
 
-9. [Control your libraries and SDKs](#Sheet_n°09_:_Control_your_libraries_and_SDKs)
+9. [Controlla librerie e SDK](#Scheda_n°09_:_Controlla_librerie_e_SDK)
 
-10. [Ensure the quality of the code and its documentation](#Sheet_n°10_:_Ensure_quality_of_the_code_and_its_documentation)
+10. [Garantisci la qualità del codice e della documentazione](#Scheda_n°10_:_Garantisci_la_qualità_del_codice_e_della_documentazione)
 
-11. [Test your applications](#Sheet_n°11_:_Test_your_applications)
+11. [Testa le tue applicazioni](#Scheda_n°11_:_Testa_le_tue_applicazioni)
 
 12. [Inform users](#Sheet_n°12_:_Inform_users)
 
