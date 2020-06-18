@@ -53,7 +53,7 @@ Le buone pratiche di questa guida, pertanto, **non intendono coprire tutte le ri
 
 11. [Testa le tue applicazioni](#Scheda_n°11_:_Testa_le_tue_applicazioni)
 
-12. [Inform users](#Sheet_n°12_:_Inform_users)
+12. [Informa gli utenti](#Scheda_n°12_:_Informa_gli_utenti)
 
 13. [Prepare to exercise people's rights](#Sheet_n°13_:_Prepare_for_the_exercise_of_people_rights)
 
