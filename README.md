@@ -31,7 +31,7 @@ Le buone pratiche di questa guida, pertanto, **non intendono coprire tutte le ri
 
 0. [Sviluppa in linea con il GDPR](#Scheda_n°0_:_Sviluppa_in_linea_con_il_GDPR)
 
-1. [Individua i dati personali](#Scheda_n°1_:_Individua i dati personali)
+1. [Individua i dati personali](#Scheda_n°1_:_Individua_i_dati_personali)
 
 2. [Prepara lo sviluppo](#Scheda_n°2_:_Prepara_lo_sviluppo)
 
@@ -55,13 +55,13 @@ Le buone pratiche di questa guida, pertanto, **non intendono coprire tutte le ri
 
 12. [Informa gli utenti](#Scheda_n°12_:_Informa_gli_utenti)
 
-13. [Preparati all'esercizio dei diritti degli interessati](#Scheda_n°13_:_13-Preparati_all'esercizio_dei_diritti_degli_interessati)
+13. [Preparati all'esercizio dei diritti degli interessati](#Scheda_n°13_:_Preparati_all'esercizio_dei_diritti_degli_interessati)
 
 14. [Definisci un periodo di conservazione dei dati](#Scheda_n°14_:_Definisci_un_periodo_conservazione_dei_dati)
 
-15. [Take into account the legal basis in the technical implementation](#Sheet_n°15_:_Take_into_account_the_legal_bases_in_the_technical_implementation)
+15. [Considera la base giuridica durante l’implementazione tecnica](#Scheda_n°15_:_Considera_la_base_giuridica_durante_l'implementazione_tecnica)
 
-16. [Use analytics on your websites and applications](#Sheet_n°16:_Use_analytics_on_your_websites_and_applications)
+16. [Usa le analytics nei tuoi siti e applicazioni](#Scheda_n°16:_Usa_le_analytics_nei_tuoi_siti_e_applicazioni)
 
 
 
