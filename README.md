@@ -11,9 +11,9 @@ La  [versione francese](https://github.com/LINCnil/Guide-RGPD-du-developpeur) è
 
 Questa versione italiana è a cura di [Walter Vannini](https://github.com/richardmacduff/).
 
-## Questa guida è solo per sviluppatori?
+**Nota per la versione italiana**: i link puntano ancora alle destinazioni originali in Inglese (tranne qualcuna in Francese); una volta completata la traduzione li sostituirò con analoghe destinazioni in Italiano quando possibile.
 
-Questa guida è intesa principalmente per sviluppatori, sia che lavorino da soli che in team, per i team leader, per i fornitori di servizi ma anche per chiunque sia interessato allo sviluppo web o di software applicativi.
+**Nota 2 per la versione italiana**: il link al modulo per la notifica di un _data breach_ punta già al modulo ufficiale del Garante per la Protezione dei Dati Personali (gpdp.it)
 
 La guida contiene indicazioni e buone pratiche, e pertanto fornisce delle chiavi utili per comprendere il GDPR a ogni stakeholder, quale che sia la dimensione della sua organizzazione. La guida può anche stimolare la discussione e lo sviluppo di pratiche all’interno delle organizzazioni e nelle relazioni con i clienti.
 
