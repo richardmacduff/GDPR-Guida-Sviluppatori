@@ -55,7 +55,7 @@ Le buone pratiche di questa guida, pertanto, **non intendono coprire tutte le ri
 
 12. [Informa gli utenti](#Scheda_n°12_:_Informa_gli_utenti)
 
-13. [Prepare to exercise people's rights](#Sheet_n°13_:_Prepare_for_the_exercise_of_people_rights)
+13. [Preparati all'esercizio dei diritti degli interessati](#Scheda_n°13_:_13-Preparati_all'esercizio_dei_diritti_degli_interessati)
 
 14. [Definisci un periodo di conservazione dei dati](#Scheda_n°14_:_Definisci_un_periodo_conservazione_dei_dati)
 
