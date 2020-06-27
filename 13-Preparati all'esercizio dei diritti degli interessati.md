@@ -7,7 +7,7 @@
 
 ## Misure minime da attivare
 
-* Ogni organizzaizone che usa dati personali ha **l’obbligo di indicare dove e come** le persone interessate possono esercitare i propri diritti relativamente a quei dati. Per esempio, puoi indicare un indirizzo email o un form web al momento in cui informi le persone del trattamento o nella tua privacy policy.
+* Ogni organizzazione che usa dati personali ha **l’obbligo di indicare dove e come** le persone interessate possono esercitare i propri diritti relativamente a quei dati. Per esempio, puoi indicare un indirizzo email o un form web al momento in cui informi le persone del trattamento o nella tua privacy policy.
 * Per facilitare l’esercizio dei diritti delle persone, questi diritti possono anche essere **implementati**, in tutto o in parte, direttamente **nell’applicazione o nel software che sviluppi**. Questo non è obbligatorio per legge, ma ti permette di venire incontro alle aspettative degli utenti e di ridurre il tempo e la complessità di  trattare le loro richieste.
 * Soprattutto, sia nell’accesso ai propri dati che nelle operazioni effettuate direttamente da una persona sui propri dati in tuo possesso, non dimenticare di gestire **l’autenticazione** in modo sicuro. Ad ogni modo, **tieni traccia** di tutte le operazioni che hanno un impatto sui suoi dati personali.
 
@@ -17,7 +17,7 @@
 
   **_Possibile implementazione_**: Prevedi una funzionalità che consenta la visualizzazione di tutti i dati relativi a uno specifico interessato. Se la quantità di dati è eccessiva, offri all’interessato la possibilità di scaricare un archivio contenente tutti i suoi dati.
 
-- **Diritto di cancellazione**: le personehanno il diritto di chiedere la cancellazione di tutti i dati di cui disponi su di loro.
+- **Diritto di cancellazione**: le persone hanno il diritto di chiedere la cancellazione di tutti i dati di cui disponi su di loro.
 
   **_Possibili implementazioni_**:
 
@@ -26,13 +26,13 @@
   3. Prevedi anche la possibilità di cancellare i dati anche dai backup, o fornisci una soluzione alternativa che, quando si ripristina un backup, non ripristini i dati cancellati.
 
 * **Diritto di opposizione**: in alcuni casi le persone hanno il diritto a opporsi al trattamento dei loro dati per uno scopo specifico.  
-**_Possibile implementazione_**: prevedi una funzionalità che permetta agli interessatidi esprimere la propria opposizione al trattamento. Quando l’interessato esercita il proprio diritto di opposizione in questo modo, il Titolare del trattamento deve cancellare i dati già raccolti, e deve astenersi dal raccogliere altri dati relativi alla persona in questione.
+**_Possibile implementazione_**: prevedi una funzionalità che permetta agli interessati di esprimere la propria opposizione al trattamento. Quando l’interessato esercita il proprio diritto di opposizione in questo modo, il Titolare del trattamento deve cancellare i dati già raccolti, e deve astenersi dal raccogliere altri dati relativi alla persona in questione.
 * **Diritto alla portabilità dei dati**: le persone hanno il diritto a ricevere i propri dati in un formato leggibile da computer per il proprio uso personale o per il trasferimento a un’altra organizzazione  
-  **_Possibile implementazione_**: Prrevedi una funzionalità che consenta alle persone di scaricare i propri dati in un formato machine-readable standard (CSV, XML, JSON, etc.).
+  **_Possibile implementazione_**: Prevedi una funzionalità che consenta alle persone di scaricare i propri dati in un formato machine-readable standard (CSV, XML, JSON, etc.).
 * **Diritto di rettifica**: le persone hanno il diritto a chiedere la modifica dei propri dati quando questi siano scorretti, al fine di evitare la disseminazione di informazioni erronee.  
 **_Possibile implementazione_**: consenti la modifica diretta dei dati nell’account dell’utente.
 * **Diritto alla limitazione del trattamento**: le persone hanno il diritto a chiedere la sospensione per un certo periodo di tempo del trattamento dei propri dati, ad esempio per valutare una loro disputa riguardo al trattamento dei loro dati o per dar loro il tempo di esercitare i propri diritti.
-  **_Possibile implementazione_**: Permetti agli amministratori di sistema di mettere “in quarantena” i dati di una persona: dsa quel momento quei dati non possono più essere né letti né modificati.
+  **_Possibile implementazione_**: Permetti agli amministratori di sistema di mettere “in quarantena” i dati di una persona: da quel momento quei dati non possono più essere né letti né modificati.
 
 ## In conclusione
 
